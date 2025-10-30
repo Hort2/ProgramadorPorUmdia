@@ -12,25 +12,19 @@ const Header = () => {
 <header className="flex justify-between items-center px-10 py-5 border-b border-gray-700 bg-gradient-to-r from-gray-950 via-gray-900 to-gray-800 shadow-md sticky top-0 z-50">
       {/* LOGO */}
 <h1 className="text-3xl font-extrabold tracking-tight text-indigo-400 drop-shadow-md">
-        Academia<span className="text-white">Smart</span>
+        Loja<span className="text-white"> Roupas</span>
 </h1>
  
       {/* NAVEGAÇÃO */}
 <nav className="flex space-x-8 text-lg font-medium">
 <Link to="/home" className={linkClasses("/home")}>
           Início
-</Link>
-<Link to="/planos" className={linkClasses("/planos")}>
-          Planos
-</Link>
-<Link to="/treinos" className={linkClasses("/treinos")}>
-          Treinos
-</Link>
+</Link> 
 <Link to="/sobre" className={linkClasses("/sobre")}>
           Sobre
 </Link>
-<Link to="/contato" className={linkClasses("/contato")}>
-          Contato
+<Link to="/produtos" className={linkClasses("/produtos")}>
+          Produtos
 </Link>
 </nav>
  

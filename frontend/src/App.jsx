@@ -3,10 +3,8 @@ import Login from "./routes/Login";
 import Register from "./routes/Register";
 import Home from "./routes/Home";
 import Error from "./routes/Error";
-import Planos from "./routes/Planos";
-import Treinos from "./routes/Treinos";
 import Sobre from "./routes/Sobre";
-import Contato from "./routes/Contato";
+import Produtos from "./routes/Produtos";
  
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -24,13 +22,11 @@ function App() {
 <main className="flex-1 flex flex-col">
 <Routes>
 <Route path="/" element={<Login />} />
-<Route path="/register" element={<Register />} />
 <Route path="/home" element={<Home />} />
-<Route path="/planos" element={<Planos />} />
-<Route path="/treinos" element={<Treinos />} />
 <Route path="/sobre" element={<Sobre />} />
-<Route path="/contato" element={<Contato />} />
+<Route path="/Produtos" element={<Produtos />} />
 <Route path="*" element={<Error />} />
+<Route path="/register" element={<Register />} />
 </Routes>
 </main>
  
